@@ -30,39 +30,21 @@ import { motion } from "framer-motion";
 const aboutStats = [
   { label: "Years of experience", value: "3+" },
   { label: "Technologies mastered", value: "5+" },
-  { label: "Companies worked with", value: "15+" },
+  { label: "Companies worked with", value: "5+" },
 ];
 
 const projects = [
   {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
+    title: "Battuta travel",
+    description: "Website for travel agency",
+    image: "/assets/battuta.gif",
+    href: "https://battutatravel.uz/",
   },
   {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
-    href: "#",
-  },
-  {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
-    image: "/assets/translate_bot.webm",
-    href: "https://translatebot.app/",
-  },
-  {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
-    image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
-  },
-  {
-    title: "This website",
-    description: "My personal website",
-    image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
+    title: "Alimardon.com",
+    description: "Client portfolio website",
+    image: "/assets/Alimardon.gif",
+    href: "https://www.alimardon.com/",
   },
 ];
 
@@ -190,9 +172,9 @@ export default function Home() {
               data-scroll-speed=".09"
               className="flex flex-row items-center space-x-1.5"
             >
-              <span className={styles.pill}>next.js</span>
-              <span className={styles.pill}>tailwindcss</span>
-              <span className={styles.pill}>typescript</span>
+              <span className={styles.pill}>.NET Core</span>
+              <span className={styles.pill}>C#</span>
+              <span className={styles.pill}>JavaScript</span>
             </div>
             <div>
               <h1
@@ -206,7 +188,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Jamolkhon Umarov.
                 </span>
               </h1>
               <p
@@ -215,8 +197,11 @@ export default function Home() {
                 data-scroll-speed=".06"
                 className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
               >
-                An experienced full-stack website developer with a passion for
-                crafting unique digital experiences.
+                Full Stack Developer with over 3 years of expertise in designing
+                and optimizing scalable web applications using .NET Core, C#,
+                and Angular. Proficient in AWS cloud services, including Lambda
+                and SQS, and experienced in leading development teams through
+                Agile methodologies
               </p>
             </div>
             <span
@@ -225,7 +210,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:jmlkhon17@gmail.com" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -275,13 +260,15 @@ export default function Home() {
                 target="_blank"
                 className="underline"
               >
-                TypeScript, Tailwind, and Next.js
+                .NET Core, EF Core, C#, and Angular
               </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
+              Senior Full Stack Developer with 3+ years of experience in
+              designing, developing, and optimizing web applications using .NET,
+              C#, ASP.NET Core, and Angular. Proficient in AWS services (Lambda,
+              SQS, CloudWatch) and SQL Server, with a strong track record of
+              improving system performance and reducing cloud costs by 7%. Adept
+              at leading Agile development teams, providing technical direction,
+              and delivering client-focused, scalable solutions.
             </h2>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
@@ -446,7 +433,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="mailto:jmlkhon17@gmail.com" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
